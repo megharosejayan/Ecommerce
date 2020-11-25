@@ -960,7 +960,8 @@ figure.effect-phoebe h2 {
 	-webkit-transition: transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,40px,0);
-	transform: translate3d(0,40px,0);
+  transform: translate3d(0,40px,0);
+  color: #fff;
 }
 
 figure.effect-phoebe:hover h2 {
@@ -1044,7 +1045,14 @@ figure.effect-apollo p {
 }
 
 figure.effect-apollo h2 {
-	text-align: left;
+  text-align: left;
+  color: #fff;
+}
+
+
+figure.effect-apollo:hover h2 {
+  text-align: left;
+  color: black;
 }
 
 figure.effect-apollo:hover img {
